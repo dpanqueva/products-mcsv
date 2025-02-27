@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @RestController
-//@RequestMapping("/api/v1/products")
 public class ProductController {
 
     private final ProductService productService;
@@ -32,7 +31,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ResponseEntity<ProductDto> getProductById(@PathVariable Long id) throws InterruptedException {
-        //errorsCircuitBreaker(id);
+        errorsCircuitBreaker(id);
         return ResponseEntity.ok(productService.getProductById(id).get());
     }
 
