@@ -52,7 +52,7 @@ public class ProductController {
             throw new IllegalStateException("Product not found");
         }
         if (id.equals(2L)) {
-            TimeUnit.SECONDS.sleep(4L);
+            TimeUnit.SECONDS.sleep(3L);
         }
     }
 }
