@@ -1,8 +1,9 @@
 package com.dieva.products.mcsv.infrastructure.controllers;
 
 
+import com.dieva.libs.mcsv.commons.domain.model.ProductDto;
 import com.dieva.products.mcsv.application.service.ProductService;
-import com.dieva.products.mcsv.domain.model.ProductDto;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

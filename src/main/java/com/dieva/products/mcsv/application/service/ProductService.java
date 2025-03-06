@@ -1,6 +1,6 @@
 package com.dieva.products.mcsv.application.service;
 
-import com.dieva.products.mcsv.domain.model.ProductDto;
+import com.dieva.libs.mcsv.commons.domain.model.ProductDto;
 
 import java.util.List;
 import java.util.Optional;
