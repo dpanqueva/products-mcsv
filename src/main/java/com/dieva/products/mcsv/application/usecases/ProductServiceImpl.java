@@ -2,7 +2,7 @@ package com.dieva.products.mcsv.application.usecases;
 
 
 import com.dieva.products.mcsv.application.service.ProductService;
-import com.dieva.products.mcsv.domain.model.ProductDto;
+import com.dieva.libs.mcsv.commons.domain.model.ProductDto;
 import com.dieva.products.mcsv.domain.port.out.ProductRepositoryPort;
 import com.dieva.products.mcsv.infrastructure.entities.Product;
 import com.dieva.products.mcsv.infrastructure.exceptions.ProductErrorException;

@@ -1,6 +1,6 @@
 package com.dieva.products.mcsv.infrastructure.mapper;
 
-import com.dieva.products.mcsv.domain.model.ProductDto;
+import com.dieva.libs.mcsv.commons.domain.model.ProductDto;
 import com.dieva.products.mcsv.infrastructure.entities.Product;
 import org.mapstruct.Mapper;
 
